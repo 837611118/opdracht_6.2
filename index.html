@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Button Klik</title>
+</head>
+<body>
+    <h1 id="mijnTekst">Dit is een voorbeeldtekst</h1>
+    <button onclick="veranderTekst()">Klik hier om de tekst aan te passen</button>
+
+    <script>
+        function veranderTekst() {
+            var element = document.getElementById("mijnTekst");
+            element.innerHTML = "De tekst is aangepast!";
+        }
+    </script>
+</body>
+</html>
